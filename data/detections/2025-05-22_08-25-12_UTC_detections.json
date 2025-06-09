@@ -1,0 +1,37 @@
+{
+  "video_id": "2025-05-22_08-25-12_UTC",
+  "frames": [
+    {
+      "frame_number": 240,
+      "frame_path": "data/frames\\2025-05-22_08-25-12_UTC\\frame_000240.jpg",
+      "detections": [
+        {
+          "class": "umbrella",
+          "confidence": 0.7188071012496948,
+          "bbox": {
+            "x1": 382,
+            "y1": 695,
+            "x2": 413,
+            "y2": 726
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 270,
+      "frame_path": "data/frames\\2025-05-22_08-25-12_UTC\\frame_000270.jpg",
+      "detections": [
+        {
+          "class": "umbrella",
+          "confidence": 0.7176802754402161,
+          "bbox": {
+            "x1": 382,
+            "y1": 695,
+            "x2": 413,
+            "y2": 726
+          }
+        }
+      ]
+    }
+  ]
+}

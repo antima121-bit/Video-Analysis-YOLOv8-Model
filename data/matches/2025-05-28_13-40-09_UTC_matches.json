@@ -1,0 +1,352 @@
+[
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5640568137168884
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5569607019424438
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "Exact Match",
+        "matched_product_id": "14981",
+        "confidence": 0.75
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.618183434009552
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6295579075813293
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6520709991455078
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6584363579750061
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6666444540023804
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5287233591079712
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.6304642558097839
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6323846578598022
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.5994865298271179
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.633268415927887
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.5829257965087891
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6475504636764526
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6404736638069153
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6470561623573303
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5650251507759094
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6269772052764893
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.6173765063285828
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5581090450286865
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5687613487243652
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5836774706840515
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5840803384780884
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5868951082229614
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5572746396064758
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5874390006065369
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6785121560096741
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6861374378204346
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6465339660644531
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5935098528862
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.642708957195282
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6118549704551697
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5569801926612854
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "Exact Match",
+        "matched_product_id": "14978",
+        "confidence": 0.7098097801208496
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.6581249237060547
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5953314900398254
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5516015887260437
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5953623056411743
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6374473571777344
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6475641131401062
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6515570878982544
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5746499300003052
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6024320125579834
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6223136186599731
+    },
+    {
+        "type": "hot dog",
+        "color": "brown",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5676938891410828
+    },
+    {
+        "type": "hot dog",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5888544917106628
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.6914368867874146
+    },
+    {
+        "type": "hot dog",
+        "color": "brown",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5656136274337769
+    },
+    {
+        "type": "hot dog",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5873844623565674
+    }
+]

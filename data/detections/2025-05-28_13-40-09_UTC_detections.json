@@ -1,0 +1,775 @@
+{
+  "video_id": "2025-05-28_13-40-09_UTC",
+  "frames": [
+    {
+      "frame_number": 0,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000000.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.6941369771957397,
+          "bbox": {
+            "x1": 8,
+            "y1": 2,
+            "x2": 718,
+            "y2": 1262
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 30,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000030.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8280460238456726,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 719,
+            "y2": 1270
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.35183513164520264,
+          "bbox": {
+            "x1": 1,
+            "y1": 568,
+            "x2": 168,
+            "y2": 1046
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 60,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000060.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8656295537948608,
+          "bbox": {
+            "x1": 186,
+            "y1": 167,
+            "x2": 675,
+            "y2": 1280
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8637337684631348,
+          "bbox": {
+            "x1": 3,
+            "y1": 423,
+            "x2": 265,
+            "y2": 1278
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 90,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000090.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8662001490592957,
+          "bbox": {
+            "x1": 17,
+            "y1": 429,
+            "x2": 288,
+            "y2": 1275
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8381052613258362,
+          "bbox": {
+            "x1": 240,
+            "y1": 190,
+            "x2": 669,
+            "y2": 1277
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 120,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000120.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8713516592979431,
+          "bbox": {
+            "x1": 297,
+            "y1": 457,
+            "x2": 546,
+            "y2": 1236
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3774864375591278,
+          "bbox": {
+            "x1": 496,
+            "y1": 632,
+            "x2": 680,
+            "y2": 1089
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 150,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000150.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9216771721839905,
+          "bbox": {
+            "x1": 220,
+            "y1": 354,
+            "x2": 601,
+            "y2": 1279
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 180,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000180.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8130228519439697,
+          "bbox": {
+            "x1": 149,
+            "y1": 287,
+            "x2": 507,
+            "y2": 1279
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 210,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000210.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9357360601425171,
+          "bbox": {
+            "x1": 6,
+            "y1": 214,
+            "x2": 626,
+            "y2": 1274
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.30598920583724976,
+          "bbox": {
+            "x1": 0,
+            "y1": 486,
+            "x2": 124,
+            "y2": 1274
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 240,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000240.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8942027688026428,
+          "bbox": {
+            "x1": 126,
+            "y1": 396,
+            "x2": 584,
+            "y2": 1279
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8349239826202393,
+          "bbox": {
+            "x1": 1,
+            "y1": 652,
+            "x2": 189,
+            "y2": 1279
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 270,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000270.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8389127850532532,
+          "bbox": {
+            "x1": 0,
+            "y1": 138,
+            "x2": 718,
+            "y2": 1277
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 300,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000300.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.942889928817749,
+          "bbox": {
+            "x1": 102,
+            "y1": 354,
+            "x2": 591,
+            "y2": 1278
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.7499831318855286,
+          "bbox": {
+            "x1": 1,
+            "y1": 769,
+            "x2": 175,
+            "y2": 1278
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.7450674772262573,
+          "bbox": {
+            "x1": 619,
+            "y1": 721,
+            "x2": 703,
+            "y2": 853
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 330,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000330.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9161832928657532,
+          "bbox": {
+            "x1": 252,
+            "y1": 337,
+            "x2": 471,
+            "y2": 1104
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6887357234954834,
+          "bbox": {
+            "x1": 72,
+            "y1": 454,
+            "x2": 245,
+            "y2": 767
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6299134492874146,
+          "bbox": {
+            "x1": 0,
+            "y1": 556,
+            "x2": 101,
+            "y2": 770
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6023154854774475,
+          "bbox": {
+            "x1": 529,
+            "y1": 557,
+            "x2": 652,
+            "y2": 771
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3761335611343384,
+          "bbox": {
+            "x1": 643,
+            "y1": 622,
+            "x2": 720,
+            "y2": 774
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.37221789360046387,
+          "bbox": {
+            "x1": 448,
+            "y1": 531,
+            "x2": 655,
+            "y2": 771
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.30015048384666443,
+          "bbox": {
+            "x1": 492,
+            "y1": 81,
+            "x2": 598,
+            "y2": 171
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.2740928828716278,
+          "bbox": {
+            "x1": 438,
+            "y1": 614,
+            "x2": 545,
+            "y2": 780
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 360,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000360.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8626104593276978,
+          "bbox": {
+            "x1": 188,
+            "y1": 219,
+            "x2": 529,
+            "y2": 1253
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.8523961901664734,
+          "bbox": {
+            "x1": 518,
+            "y1": 558,
+            "x2": 656,
+            "y2": 772
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.7275858521461487,
+          "bbox": {
+            "x1": 72,
+            "y1": 458,
+            "x2": 221,
+            "y2": 767
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6663981676101685,
+          "bbox": {
+            "x1": 0,
+            "y1": 558,
+            "x2": 99,
+            "y2": 769
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3646891713142395,
+          "bbox": {
+            "x1": 648,
+            "y1": 658,
+            "x2": 720,
+            "y2": 774
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.33634278178215027,
+          "bbox": {
+            "x1": 640,
+            "y1": 624,
+            "x2": 720,
+            "y2": 773
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.2912295460700989,
+          "bbox": {
+            "x1": 491,
+            "y1": 82,
+            "x2": 598,
+            "y2": 171
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 390,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000390.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9148952960968018,
+          "bbox": {
+            "x1": 38,
+            "y1": 279,
+            "x2": 638,
+            "y2": 1280
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 420,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000420.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9042581915855408,
+          "bbox": {
+            "x1": 247,
+            "y1": 521,
+            "x2": 528,
+            "y2": 1199
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.503818690776825,
+          "bbox": {
+            "x1": 611,
+            "y1": 772,
+            "x2": 720,
+            "y2": 893
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.48690247535705566,
+          "bbox": {
+            "x1": 524,
+            "y1": 726,
+            "x2": 625,
+            "y2": 887
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.4131423830986023,
+          "bbox": {
+            "x1": 203,
+            "y1": 754,
+            "x2": 277,
+            "y2": 885
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.39159512519836426,
+          "bbox": {
+            "x1": 471,
+            "y1": 713,
+            "x2": 625,
+            "y2": 888
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.34961023926734924,
+          "bbox": {
+            "x1": 1,
+            "y1": 494,
+            "x2": 152,
+            "y2": 702
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.33508074283599854,
+          "bbox": {
+            "x1": 90,
+            "y1": 726,
+            "x2": 188,
+            "y2": 889
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3263700008392334,
+          "bbox": {
+            "x1": 496,
+            "y1": 356,
+            "x2": 579,
+            "y2": 425
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.32189616560935974,
+          "bbox": {
+            "x1": 90,
+            "y1": 785,
+            "x2": 188,
+            "y2": 888
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3145332336425781,
+          "bbox": {
+            "x1": 163,
+            "y1": 646,
+            "x2": 284,
+            "y2": 885
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.31358253955841064,
+          "bbox": {
+            "x1": 533,
+            "y1": 780,
+            "x2": 604,
+            "y2": 887
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.2797689437866211,
+          "bbox": {
+            "x1": 201,
+            "y1": 690,
+            "x2": 280,
+            "y2": 885
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 450,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000450.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8874140381813049,
+          "bbox": {
+            "x1": 202,
+            "y1": 415,
+            "x2": 584,
+            "y2": 1278
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.8718805909156799,
+          "bbox": {
+            "x1": 0,
+            "y1": 743,
+            "x2": 248,
+            "y2": 1279
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.7989425659179688,
+          "bbox": {
+            "x1": 603,
+            "y1": 700,
+            "x2": 715,
+            "y2": 849
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 480,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000480.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8968914747238159,
+          "bbox": {
+            "x1": 0,
+            "y1": 510,
+            "x2": 264,
+            "y2": 1267
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.7797919511795044,
+          "bbox": {
+            "x1": 149,
+            "y1": 644,
+            "x2": 345,
+            "y2": 884
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6744957566261292,
+          "bbox": {
+            "x1": 528,
+            "y1": 726,
+            "x2": 622,
+            "y2": 887
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.612213671207428,
+          "bbox": {
+            "x1": 339,
+            "y1": 767,
+            "x2": 456,
+            "y2": 889
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.48722124099731445,
+          "bbox": {
+            "x1": 609,
+            "y1": 770,
+            "x2": 720,
+            "y2": 891
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3797786235809326,
+          "bbox": {
+            "x1": 435,
+            "y1": 714,
+            "x2": 535,
+            "y2": 889
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.28695058822631836,
+          "bbox": {
+            "x1": 496,
+            "y1": 352,
+            "x2": 577,
+            "y2": 423
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 510,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000510.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8681023120880127,
+          "bbox": {
+            "x1": 309,
+            "y1": 508,
+            "x2": 528,
+            "y2": 1278
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.669308066368103,
+          "bbox": {
+            "x1": 493,
+            "y1": 717,
+            "x2": 624,
+            "y2": 887
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6420637369155884,
+          "bbox": {
+            "x1": 87,
+            "y1": 731,
+            "x2": 189,
+            "y2": 887
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.6174471378326416,
+          "bbox": {
+            "x1": 168,
+            "y1": 645,
+            "x2": 333,
+            "y2": 884
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.3684462010860443,
+          "bbox": {
+            "x1": 611,
+            "y1": 769,
+            "x2": 719,
+            "y2": 890
+          }
+        },
+        {
+          "class": "hot dog",
+          "confidence": 0.26024582982063293,
+          "bbox": {
+            "x1": 496,
+            "y1": 353,
+            "x2": 577,
+            "y2": 424
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 540,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000540.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9346047043800354,
+          "bbox": {
+            "x1": 158,
+            "y1": 352,
+            "x2": 692,
+            "y2": 1277
+          }
+        }
+      ]
+    },
+    {
+      "frame_number": 570,
+      "frame_path": "data/frames\\2025-05-28_13-40-09_UTC\\frame_000570.jpg",
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9258049130439758,
+          "bbox": {
+            "x1": 161,
+            "y1": 367,
+            "x2": 577,
+            "y2": 1279
+          }
+        }
+      ]
+    }
+  ]
+}

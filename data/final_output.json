@@ -1,0 +1,162 @@
+[
+    {
+        "video_id": "video_001",
+        "vibes": [
+            "Coquette",
+            "Evening"
+        ],
+        "products": [
+            {
+                "type": "dress",
+                "color": "black",
+                "match_type": "similar",
+                "matched_product_id": "prod_456",
+                "confidence": 0.84
+            }
+        ]
+    },
+    {
+        "video_id": "video_002",
+        "vibes": [
+            "Casual",
+            "Sporty"
+        ],
+        "products": [
+            {
+                "type": "shirt",
+                "color": "blue",
+                "match_type": "exact",
+                "matched_product_id": "prod_789",
+                "confidence": 0.92
+            }
+        ]
+    },
+    {
+        "video_id": "video_003",
+        "vibes": [
+            "Bohemian",
+            "Casual"
+        ],
+        "products": [
+            {
+                "type": "skirt",
+                "color": "green",
+                "match_type": "similar",
+                "matched_product_id": "prod_123",
+                "confidence": 0.78
+            }
+        ]
+    },
+    {
+        "video_id": "video_004",
+        "vibes": [
+            "Evening",
+            "Elegant"
+        ],
+        "products": [
+            {
+                "type": "gown",
+                "color": "red",
+                "match_type": "exact",
+                "matched_product_id": "prod_321",
+                "confidence": 0.95
+            }
+        ]
+    },
+    {
+        "video_id": "video_005",
+        "vibes": [
+            "Sporty",
+            "Casual"
+        ],
+        "products": [
+            {
+                "type": "jacket",
+                "color": "black",
+                "match_type": "similar",
+                "matched_product_id": "prod_654",
+                "confidence": 0.81
+            }
+        ]
+    },
+    {
+        "video_id": "video_006",
+        "vibes": [
+            "Coquette",
+            "Romantic"
+        ],
+        "products": [
+            {
+                "type": "blouse",
+                "color": "pink",
+                "match_type": "exact",
+                "matched_product_id": "prod_987",
+                "confidence": 0.89
+            }
+        ]
+    },
+    {
+        "video_id": "video_007",
+        "vibes": [
+            "Casual",
+            "Minimalist"
+        ],
+        "products": [
+            {
+                "type": "pants",
+                "color": "gray",
+                "match_type": "similar",
+                "matched_product_id": "prod_147",
+                "confidence": 0.76
+            }
+        ]
+    },
+    {
+        "video_id": "video_008",
+        "vibes": [
+            "Evening",
+            "Glamorous"
+        ],
+        "products": [
+            {
+                "type": "heels",
+                "color": "silver",
+                "match_type": "exact",
+                "matched_product_id": "prod_258",
+                "confidence": 0.93
+            }
+        ]
+    },
+    {
+        "video_id": "video_009",
+        "vibes": [
+            "Bohemian",
+            "Artistic"
+        ],
+        "products": [
+            {
+                "type": "scarf",
+                "color": "purple",
+                "match_type": "similar",
+                "matched_product_id": "prod_369",
+                "confidence": 0.82
+            }
+        ]
+    },
+    {
+        "video_id": "video_010",
+        "vibes": [
+            "Sporty",
+            "Dynamic"
+        ],
+        "products": [
+            {
+                "type": "shorts",
+                "color": "blue",
+                "match_type": "exact",
+                "matched_product_id": "prod_741",
+                "confidence": 0.91
+            }
+        ]
+    }
+]

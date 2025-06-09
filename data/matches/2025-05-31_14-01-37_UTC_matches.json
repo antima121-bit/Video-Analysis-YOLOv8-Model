@@ -1,0 +1,79 @@
+[
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.7190520763397217
+    },
+    {
+        "type": "hot dog",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6654326915740967
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "Similar Match",
+        "matched_product_id": "14980",
+        "confidence": 0.7595852613449097
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.645315408706665
+    },
+    {
+        "type": "hot dog",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6496779322624207
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.6980702877044678
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.6864330768585205
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14978",
+        "confidence": 0.7108423709869385
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.7194859981536865
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14982",
+        "confidence": 0.7152072787284851
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.6859980821609497
+    }
+]

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Analysis Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4F46E5;
+            --secondary-color: #818CF8;
+            --background-color: #F3F4F6;
+            --text-color: #1F2937;
+            --border-color: #E5E7EB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            color: #6B7280;
+            font-size: 1.1rem;
+        }
+
+        .upload-container {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .upload-area {
+            border: 2px dashed var(--border-color);
+            border-radius: 0.5rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary-color);
+            background-color: #F9FAFB;
+        }
+
+        .upload-area i {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .upload-area p {
+            color: #6B7280;
+            margin-bottom: 0.5rem;
+        }
+
+        .upload-area .file-types {
+            font-size: 0.9rem;
+            color: #9CA3AF;
+        }
+
+        .progress-container {
+            display: none;
+            margin-top: 2rem;
+        }
+
+        .progress-bar {
+            height: 0.5rem;
+            background-color: var(--border-color);
+            border-radius: 0.25rem;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: var(--primary-color);
+            width: 0;
+            transition: width 0.3s ease;
+        }
+
+        .status {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #6B7280;
+        }
+
+        .results-container {
+            display: none;
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-header h2 {
+            color: var(--primary-color);
+        }
+
+        .confidence-score {
+            background-color: #F3F4F6;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            font-weight: 500;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .result-card {
+            background: #F9FAFB;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .result-card h3 {
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .result-card p {
+            color: #6B7280;
+            font-size: 0.9rem;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .loading i {
+            font-size: 2rem;
+            color: var(--primary-color);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            display: none;
+            background-color: #FEE2E2;
+            color: #DC2626;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Confidence Gauge Styles */
+        .confidence-gauge {
+            width: 300px;
+            height: 150px;
+            position: relative;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 150px 150px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .gauge-background {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(90deg, #ff4d4d 0%, #ffd700 50%, #4CAF50 100%);
+            clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+            transform-origin: bottom center;
+            transform: rotate(0deg);
+        }
+
+        .gauge-mask {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: #fff;
+            clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+            transform-origin: bottom center;
+            transform: rotate(180deg);
+        }
+
+        .gauge-center {
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .gauge-arrow {
+            width: 4px;
+            height: 120px;
+            background: #333;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform-origin: bottom center;
+            transform: translateX(-50%) rotate(0deg);
+            transition: transform 1s ease-out;
+            z-index: 1;
+        }
+
+        .gauge-arrow::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 15px solid #333;
+        }
+
+        .gauge-marks {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+        }
+
+        .gauge-mark {
+            position: absolute;
+            width: 2px;
+            height: 10px;
+            background: rgba(0,0,0,0.3);
+            bottom: 0;
+            left: 50%;
+            transform-origin: bottom center;
+        }
+
+        .gauge-label {
+            position: absolute;
+            font-size: 12px;
+            color: rgba(0,0,0,0.5);
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Video Analysis Dashboard</h1>
+            <p>Upload a video to analyze frames and detect objects</p>
+        </div>
+
+        <div class="upload-container">
+            <div class="upload-area" id="dropZone">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Drag and drop your video here</p>
+                <p>or</p>
+                <p>Click to browse files</p>
+                <p class="file-types">Supported formats: MP4, AVI, MOV, MKV</p>
+                <input type="file" id="fileInput" accept=".mp4,.avi,.mov,.mkv" style="display: none;">
+            </div>
+
+            <div class="progress-container" id="progressContainer">
+                <div class="progress-bar">
+                    <div class="progress" id="progressBar"></div>
+                </div>
+                <p class="status" id="status">Processing...</p>
+            </div>
+
+            <div class="error-message" id="errorMessage"></div>
+        </div>
+
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner"></i>
+            <p>Processing your video...</p>
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <div class="results-header">
+                <h2>Analysis Results</h2>
+                <div class="confidence-score">
+                    Confidence Score: <span id="confidenceScore">0%</span>
+                </div>
+            </div>
+            
+            <!-- Confidence Gauge -->
+            <div class="confidence-gauge">
+                <div class="gauge-background"></div>
+                <div class="gauge-mask"></div>
+                <div class="gauge-marks" id="gaugeMarks"></div>
+                <div class="gauge-arrow" id="gaugeArrow"></div>
+                <div class="gauge-center"></div>
+            </div>
+
+            <div class="results-grid" id="resultsGrid">
+                <!-- Results will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const status = document.getElementById('status');
+        const loading = document.getElementById('loading');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const resultsGrid = document.getElementById('resultsGrid');
+        const errorMessage = document.getElementById('errorMessage');
+        const confidenceScore = document.getElementById('confidenceScore');
+        const gaugeArrow = document.getElementById('gaugeArrow');
+        const gaugeMarks = document.getElementById('gaugeMarks');
+
+        // Create gauge marks
+        for (let i = 0; i <= 5; i++) {
+            const angle = (i * 36) - 90;
+            const mark = document.createElement('div');
+            mark.className = 'gauge-mark';
+            mark.style.transform = `rotate(${angle}deg)`;
+            gaugeMarks.appendChild(mark);
+
+            const label = document.createElement('div');
+            label.className = 'gauge-label';
+            label.textContent = `${i * 20}%`;
+            label.style.transform = `rotate(${angle}deg) translateX(-50%)`;
+            gaugeMarks.appendChild(label);
+        }
+
+        // Handle drag and drop
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = 'var(--primary-color)';
+        });
+
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.style.borderColor = 'var(--border-color)';
+        });
+
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = 'var(--border-color)';
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleFile(files[0]);
+            }
+        });
+
+        dropZone.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        function handleFile(file) {
+            if (!file.type.startsWith('video/')) {
+                showError('Please upload a valid video file');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            progressContainer.style.display = 'block';
+            loading.style.display = 'block';
+            resultsContainer.style.display = 'none';
+            errorMessage.style.display = 'none';
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    showError(data.error);
+                } else {
+                    showResults(data.results);
+                }
+            })
+            .catch(error => {
+                showError('An error occurred while processing the video');
+                console.error('Error:', error);
+            })
+            .finally(() => {
+                loading.style.display = 'none';
+            });
+        }
+
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.display = 'block';
+            progressContainer.style.display = 'none';
+            loading.style.display = 'none';
+        }
+
+        function showResults(results) {
+            resultsContainer.style.display = 'block';
+            progressContainer.style.display = 'none';
+
+            // Update confidence score
+            const confidence = results.overall.confidence;
+            confidenceScore.textContent = `${confidence}%`;
+
+            // Update gauge arrow
+            const angle = (confidence / 100) * 180 - 90;
+            gaugeArrow.style.transform = `translateX(-50%) rotate(${angle}deg)`;
+
+            // Update gauge arrow color based on confidence
+            if (confidence < 50) {
+                gaugeArrow.style.background = '#ff4d4d';
+                gaugeArrow.style.boxShadow = '0 0 10px rgba(255, 77, 77, 0.5)';
+            } else if (confidence < 80) {
+                gaugeArrow.style.background = '#ffd700';
+                gaugeArrow.style.boxShadow = '0 0 10px rgba(255, 215, 0, 0.5)';
+            } else {
+                gaugeArrow.style.background = '#4CAF50';
+                gaugeArrow.style.boxShadow = '0 0 10px rgba(76, 175, 80, 0.5)';
+            }
+
+            // Update results grid
+            resultsGrid.innerHTML = `
+                <div class="result-card">
+                    <h3>Frames Processed</h3>
+                    <p>${results.frames.processed} of ${results.frames.total}</p>
+                </div>
+                <div class="result-card">
+                    <h3>Objects Detected</h3>
+                    <p>${results.detections.count}</p>
+                </div>
+                <div class="result-card">
+                    <h3>Match Accuracy</h3>
+                    <p>${results.matches.accuracy}%</p>
+                </div>
+                <div class="result-card">
+                    <h3>Success Rate</h3>
+                    <p>${results.overall.success_rate}%</p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html> 

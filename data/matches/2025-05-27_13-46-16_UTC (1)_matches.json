@@ -1,0 +1,58 @@
+[
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.7439249753952026
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.69733065366745
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6582697629928589
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14982",
+        "confidence": 0.7070549726486206
+    },
+    {
+        "type": "handbag",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6604545712471008
+    },
+    {
+        "type": "chair",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6038669943809509
+    },
+    {
+        "type": "broccoli",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6336300373077393
+    },
+    {
+        "type": "toaster",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5977908372879028
+    }
+]

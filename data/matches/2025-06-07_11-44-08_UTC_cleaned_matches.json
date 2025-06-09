@@ -1,0 +1,352 @@
+[
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5124234557151794
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5260829925537109
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14982",
+        "confidence": 0.5237088799476624
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5582664012908936
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5225536227226257
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5160732269287109
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5338459610939026
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14982",
+        "confidence": 0.4986453652381897
+    },
+    {
+        "type": "person",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5226149559020996
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.6447684168815613
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.6150331497192383
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14978",
+        "confidence": 0.6371573805809021
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.6060826182365417
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14978",
+        "confidence": 0.6957092881202698
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14978",
+        "confidence": 0.6240202784538269
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5800086855888367
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5548712611198425
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5363972187042236
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14982",
+        "confidence": 0.5183638334274292
+    },
+    {
+        "type": "person",
+        "color": "white",
+        "match_type": "No Match",
+        "matched_product_id": "14982",
+        "confidence": 0.5640637278556824
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14978",
+        "confidence": 0.685937225818634
+    },
+    {
+        "type": "person",
+        "color": "black",
+        "match_type": "Exact Match",
+        "matched_product_id": "14981",
+        "confidence": 0.7186315655708313
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14980",
+        "confidence": 0.5370109677314758
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.5114617347717285
+    },
+    {
+        "type": "person",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14977",
+        "confidence": 0.5290842652320862
+    },
+    {
+        "type": "toilet",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5522250533103943
+    },
+    {
+        "type": "toilet",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5171582102775574
+    },
+    {
+        "type": "toilet",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.4898451566696167
+    },
+    {
+        "type": "toilet",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5405635833740234
+    },
+    {
+        "type": "toilet",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.49960899353027344
+    },
+    {
+        "type": "toilet",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5411044359207153
+    },
+    {
+        "type": "toilet",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5394493341445923
+    },
+    {
+        "type": "toilet",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5634521842002869
+    },
+    {
+        "type": "oven",
+        "color": "gray",
+        "match_type": "Exact Match",
+        "matched_product_id": "14981",
+        "confidence": 0.7104394435882568
+    },
+    {
+        "type": "oven",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6964362859725952
+    },
+    {
+        "type": "bed",
+        "color": "pink",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5907958149909973
+    },
+    {
+        "type": "bed",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.47771865129470825
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.5915632843971252
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6518175601959229
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.606286346912384
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.667691707611084
+    },
+    {
+        "type": "broccoli",
+        "color": "brown",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6120460629463196
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6009842753410339
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6142587065696716
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6408039331436157
+    },
+    {
+        "type": "broccoli",
+        "color": "gray",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6157823801040649
+    },
+    {
+        "type": "broccoli",
+        "color": "black",
+        "match_type": "Exact Match",
+        "matched_product_id": "14981",
+        "confidence": 0.7397920489311218
+    },
+    {
+        "type": "broccoli",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6900181770324707
+    },
+    {
+        "type": "broccoli",
+        "color": "black",
+        "match_type": "Exact Match",
+        "matched_product_id": "14981",
+        "confidence": 0.7000447511672974
+    },
+    {
+        "type": "broccoli",
+        "color": "black",
+        "match_type": "No Match",
+        "matched_product_id": "14981",
+        "confidence": 0.6725245118141174
+    }
+]

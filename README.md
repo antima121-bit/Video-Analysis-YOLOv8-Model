@@ -5,6 +5,7 @@ An AI-powered fashion detection and matching system developed for the
 <b>Flickd Hackathon</b>. This project enhances fashion discovery by analyzing videos, 
 detecting fashion items, and recommending similar products using Computer Vision 
 and Vision-Language Models.
+Utilizing a fine-tuned YOLOv8 model that achieved 82.9% mAP@0.5 and 52% mAP@[0.5:0.95] on 10 fashion categories.
 </p>
 
 <hr>
